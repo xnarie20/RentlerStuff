@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f125b3ea3aaa4284a242f5df5b738c80" Name="Diagram1">
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.AffiliateUser" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.ApiKey" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.BuildingAmenity" Width="1.5" PointX="7.5" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.Building" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.ContactInfo" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.CustomAmenity" Width="1.5" PointX="7.5" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.FeaturedListing" Width="1.5" PointX="7.5" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.OrderItem" Width="1.5" PointX="9.75" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.Order" Width="1.5" PointX="7.5" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.Photo" Width="1.5" PointX="7.5" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.SavedBuilding" Width="1.5" PointX="7.5" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.UserApplication" Width="1.5" PointX="3" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.UserBank" Width="1.5" PointX="3" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.UserCreditCard" Width="1.5" PointX="3" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.UserInterest" Width="1.5" PointX="10.5" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.User" Width="1.5" PointX="0.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentlerAdmin.Data.EntityFramework.ZipInfo" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_AffiliateUsers_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_BuildingAmenities_dbo_Buildings_BuildingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_Buildings_dbo_ContactInfoes_ContactInfoId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_Buildings_dbo_Orders_TemporaryOrderId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_Buildings_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_CustomAmenities_dbo_Buildings_BuildingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_FeaturedListings_dbo_Buildings_BuildingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_Orders_dbo_Buildings_BuildingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_Photos_dbo_Buildings_BuildingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_SavedBuildings_dbo_Buildings_BuildingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_UserInterests_dbo_Buildings_BuildingId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_ContactInfoes_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_OrderItems_dbo_Orders_OrderId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_Orders_dbo_UserCreditCards_UserCreditCardId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_Orders_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_SavedBuildings_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_UserApplications_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_UserBanks_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_UserCreditCards_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RentlerAdmin.Data.EntityFramework.FK_dbo_UserInterests_dbo_Users_UserId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

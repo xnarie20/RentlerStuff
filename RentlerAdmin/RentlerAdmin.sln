@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Web", "RentlerAdmin.Web\RentlerAdmin.Web.csproj", "{28EBC464-83BE-4678-9653-DDDB7951795B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Data.Core", "RentlerAdmin.Data.Core\RentlerAdmin.Data.Core.csproj", "{5095CF38-CDA6-40C8-B38C-977611E5AA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Repositories.Common", "RentlerAdmin.Repositories.Common\RentlerAdmin.Repositories.Common.csproj", "{970E6578-9800-43D7-9519-D5E4845B3A21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{495ADE7E-EC64-47D8-A4A9-9FBB9EC35745}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{55315511-2D70-48E2-901C-9C3BEB87AF28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B0611C89-CDE1-42FD-84EF-C94B66311042}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{47303C3B-5ADB-4589-BB8A-6A9359F0CCB3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Repositories.EntityFramework", "RentlerAdmin.Repositories.EntityFramework\RentlerAdmin.Repositories.EntityFramework.csproj", "{13DF4D65-0A2C-4F6B-895E-5DD05AA85762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Repositories.Testing", "RentlerAdmin.Repositories.Testing\RentlerAdmin.Repositories.Testing.csproj", "{D6AC948A-AFC6-49A4-876C-D1571557AED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Services.Common", "RentlerAdmin.Services.Common\RentlerAdmin.Services.Common.csproj", "{9235E715-6315-47F7-A31A-4B641728015B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Services.Core", "RentlerAdmin.Services.Core\RentlerAdmin.Services.Core.csproj", "{82FC8645-5177-4DEA-9F58-8B97E6B988EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Services.Testing", "RentlerAdmin.Services.Testing\RentlerAdmin.Services.Testing.csproj", "{8445B5BF-21B0-4C5D-AD22-F445C2845C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentlerAdmin.Repositories.ConsoleApp", "RentlerAdmin.Repositories.ConsoleApp\RentlerAdmin.Repositories.ConsoleApp.csproj", "{5C0D6B8F-3808-4966-AA19-86B8791B90D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28EBC464-83BE-4678-9653-DDDB7951795B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EBC464-83BE-4678-9653-DDDB7951795B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EBC464-83BE-4678-9653-DDDB7951795B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EBC464-83BE-4678-9653-DDDB7951795B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5095CF38-CDA6-40C8-B38C-977611E5AA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5095CF38-CDA6-40C8-B38C-977611E5AA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5095CF38-CDA6-40C8-B38C-977611E5AA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5095CF38-CDA6-40C8-B38C-977611E5AA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970E6578-9800-43D7-9519-D5E4845B3A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970E6578-9800-43D7-9519-D5E4845B3A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970E6578-9800-43D7-9519-D5E4845B3A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970E6578-9800-43D7-9519-D5E4845B3A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DF4D65-0A2C-4F6B-895E-5DD05AA85762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DF4D65-0A2C-4F6B-895E-5DD05AA85762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DF4D65-0A2C-4F6B-895E-5DD05AA85762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DF4D65-0A2C-4F6B-895E-5DD05AA85762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AC948A-AFC6-49A4-876C-D1571557AED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AC948A-AFC6-49A4-876C-D1571557AED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AC948A-AFC6-49A4-876C-D1571557AED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AC948A-AFC6-49A4-876C-D1571557AED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9235E715-6315-47F7-A31A-4B641728015B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9235E715-6315-47F7-A31A-4B641728015B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9235E715-6315-47F7-A31A-4B641728015B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9235E715-6315-47F7-A31A-4B641728015B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FC8645-5177-4DEA-9F58-8B97E6B988EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FC8645-5177-4DEA-9F58-8B97E6B988EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FC8645-5177-4DEA-9F58-8B97E6B988EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FC8645-5177-4DEA-9F58-8B97E6B988EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8445B5BF-21B0-4C5D-AD22-F445C2845C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8445B5BF-21B0-4C5D-AD22-F445C2845C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8445B5BF-21B0-4C5D-AD22-F445C2845C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8445B5BF-21B0-4C5D-AD22-F445C2845C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0D6B8F-3808-4966-AA19-86B8791B90D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0D6B8F-3808-4966-AA19-86B8791B90D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0D6B8F-3808-4966-AA19-86B8791B90D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0D6B8F-3808-4966-AA19-86B8791B90D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5095CF38-CDA6-40C8-B38C-977611E5AA48} = {495ADE7E-EC64-47D8-A4A9-9FBB9EC35745}
+		{970E6578-9800-43D7-9519-D5E4845B3A21} = {55315511-2D70-48E2-901C-9C3BEB87AF28}
+		{13DF4D65-0A2C-4F6B-895E-5DD05AA85762} = {55315511-2D70-48E2-901C-9C3BEB87AF28}
+		{D6AC948A-AFC6-49A4-876C-D1571557AED3} = {55315511-2D70-48E2-901C-9C3BEB87AF28}
+		{5C0D6B8F-3808-4966-AA19-86B8791B90D3} = {55315511-2D70-48E2-901C-9C3BEB87AF28}
+		{9235E715-6315-47F7-A31A-4B641728015B} = {B0611C89-CDE1-42FD-84EF-C94B66311042}
+		{82FC8645-5177-4DEA-9F58-8B97E6B988EC} = {B0611C89-CDE1-42FD-84EF-C94B66311042}
+		{8445B5BF-21B0-4C5D-AD22-F445C2845C4D} = {B0611C89-CDE1-42FD-84EF-C94B66311042}
+	EndGlobalSection
+EndGlobal
