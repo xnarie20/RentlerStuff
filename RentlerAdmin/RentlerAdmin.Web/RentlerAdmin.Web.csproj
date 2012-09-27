@@ -50,9 +50,11 @@
       <HintPath>..\packages\Ninject.Web.Common.3.0.0.7\lib\net45-full\Ninject.Web.Common.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -175,7 +177,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -295,10 +296,33 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Filters\" />
     <Folder Include="Js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RentlerAdmin.Data.Core\RentlerAdmin.Data.Core.csproj">
+      <Project>{5095cf38-cda6-40c8-b38c-977611e5aa48}</Project>
+      <Name>RentlerAdmin.Data.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RentlerAdmin.Repositories.Common\RentlerAdmin.Repositories.Common.csproj">
+      <Project>{970e6578-9800-43d7-9519-d5e4845b3a21}</Project>
+      <Name>RentlerAdmin.Repositories.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RentlerAdmin.Repositories.EntityFramework\RentlerAdmin.Repositories.EntityFramework.csproj">
+      <Project>{13df4d65-0a2c-4f6b-895e-5dd05aa85762}</Project>
+      <Name>RentlerAdmin.Repositories.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RentlerAdmin.Services.Common\RentlerAdmin.Services.Common.csproj">
+      <Project>{9235e715-6315-47f7-a31a-4b641728015b}</Project>
+      <Name>RentlerAdmin.Services.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RentlerAdmin.Services.Core\RentlerAdmin.Services.Core.csproj">
+      <Project>{82fc8645-5177-4dea-9f58-8b97e6b988ec}</Project>
+      <Name>RentlerAdmin.Services.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
